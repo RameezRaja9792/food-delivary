@@ -4,10 +4,9 @@ import Menu from './Menu';
 import Cart from './Cart';
 
 const RestaurantPage = () => {
-  const { restaurantId } = useParams(); // Get restaurant ID from URL
+  const { restaurantId } = useParams();
   const [cart, setCart] = useState([]);
 
-  // Mock restaurant data (replace with actual data fetching)
   const restaurant = {
     id: restaurantId,
     name: `Restaurant ${restaurantId}`,
