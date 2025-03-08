@@ -8,12 +8,24 @@ const Home = () => {
       <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
         {/* Example restaurant cards */}
         <div style={{ margin: '15px', padding: '20px', backgroundColor: 'white', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', width: '250px' }}>
-          <h3 style={{ color: '#FF8E31' }}>Restaurant A</h3>
-          <p>Cuisine: Italian</p>
+          <h3 style={{ color: '#FF8E31' }}>Restaurant Azad</h3>
+          <p>Biriyani: Chicken</p>
+          <p>Biriyani: Mutton</p>
         </div>
         <div style={{ margin: '15px', padding: '20px', backgroundColor: 'white', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', width: '250px' }}>
-          <h3 style={{ color: '#4CAF50' }}>Restaurant B</h3>
-          <p>Cuisine: Mexican</p>
+          <h3 style={{ color: '#4CAF50' }}>Restaurant Bakies</h3>
+          <p>Momohouse: Momo</p>
+          <p>Momohouse: Idli</p>
+        </div>
+        <div style={{ margin: '15px', padding: '20px', backgroundColor: 'white', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', width: '250px' }}>
+          <h3 style={{ color: '#4CAF50' }}>Restaurant Nawab</h3>
+          <p>Cakes: Chocolate</p>
+          <p>Ice cream: Chocolate</p>
+        </div>
+        <div style={{ margin: '15px', padding: '20px', backgroundColor: 'white', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', width: '250px' }}>
+          <h3 style={{ color: '#4CAF50' }}>Restaurant Foodstop</h3>
+          <p>Dhaba: Chawmin</p>
+          <p>Dhaba: Dhosa</p>
         </div>
       </div>
     </div>
