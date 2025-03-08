@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Login from './components/Login';
 import Register from './components/Register';
+import RestaurantPage from './components/RestaurantPage'; // Import RestaurantPage
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/restaurant/:restaurantId" element={<RestaurantPage />} /> {/* Add route for RestaurantPage */}
       </Routes>
     </Router>
   );

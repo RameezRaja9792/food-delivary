@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -11,21 +12,25 @@ const Home = () => {
           <h3 style={{ color: '#FF8E31' }}>Restaurant Azad</h3>
           <p>Biriyani: Chicken</p>
           <p>Biriyani: Mutton</p>
+          <Link to="/restaurant/1">View Menu</Link>
         </div>
         <div style={{ margin: '15px', padding: '20px', backgroundColor: 'white', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', width: '250px' }}>
           <h3 style={{ color: '#4CAF50' }}>Restaurant Bakies</h3>
           <p>Momohouse: Momo</p>
           <p>Momohouse: Idli</p>
+          <Link to="/restaurant/2">View Menu</Link>
         </div>
         <div style={{ margin: '15px', padding: '20px', backgroundColor: 'white', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', width: '250px' }}>
           <h3 style={{ color: '#4CAF50' }}>Restaurant Nawab</h3>
           <p>Cakes: Chocolate</p>
           <p>Ice cream: Chocolate</p>
+          <Link to="/restaurant/3">View Menu</Link>
         </div>
         <div style={{ margin: '15px', padding: '20px', backgroundColor: 'white', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', width: '250px' }}>
           <h3 style={{ color: '#4CAF50' }}>Restaurant Foodstop</h3>
           <p>Dhaba: Chawmin</p>
           <p>Dhaba: Dhosa</p>
+          <Link to="/restaurant/4">View Menu</Link>
         </div>
       </div>
     </div>
