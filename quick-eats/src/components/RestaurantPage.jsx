@@ -15,7 +15,7 @@ const RestaurantPage = () => {
     menu: [
       { id: 1, name: 'Pizza', price: 12 },
       { id: 2, name: 'Pasta', price: 10 },
-      { id: 3, name: 'Salad', price: 8 },
+      { id: 3, name: 'Salad', price: 5 },
     ],
   };
 
