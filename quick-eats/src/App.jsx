@@ -4,7 +4,9 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Login from './components/Login';
 import Register from './components/Register';
-import RestaurantPage from './components/RestaurantPage'; // Import RestaurantPage
+import RestaurantPage from './components/RestaurantPage';
+import PaymentsPage from './components/PaymentsPage';
+import DeliveryStatusPage from './components/DeliveryStatusPage';
 import './App.css';
 
 function App() {
@@ -15,7 +17,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/restaurant/:restaurantId" element={<RestaurantPage />} /> {/* Add route for RestaurantPage */}
+        <Route path="/restaurant/:restaurantId" element={<RestaurantPage />} />
+        <Route path="/payments" element={<PaymentsPage />} /> {}
+        <Route path="/delivery-status" element={<DeliveryStatusPage />} /> {}
       </Routes>
     </Router>
   );
