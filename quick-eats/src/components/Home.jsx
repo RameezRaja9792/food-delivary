@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div style={{ padding: '30px', textAlign: 'center', backgroundColor: '#FFF3E0', minHeight: 'calc(100vh - 60px)' }}>
-      <h1 style={{ color: '#FF6B6B', fontSize: '2.5em', marginBottom: '20px' }}>Welcome to Food Delivery!</h1>
-      <p style={{ fontSize: '1.1em', color: '#333', marginBottom: '30px' }}>Explore our delicious menu and order your favorite meals.</p>
+    <div style={{ backgroundImage: "url('https://i.pinimg.com/1200x/e6/7d/af/e67daf68a6e8f6d4a9283cb7d64b098c.jpg')", backgroundSize: "cover", backgroundPosition: "center", height: "100vh", width: "100%", }}>
+    <h1 style={{ color: '#FF6B6B', fontSize: '2.5em', marginBottom: '20px', paddingTop: '200px' }}>Welcome to Food Delivery!</h1>
+      <p style={{ fontSize: '1.1em', color: 'white', marginBottom: '30px' }}>Explore our delicious menu and order your favorite meals.</p>
       <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
         {}
         <div style={{ margin: '15px', padding: '20px', backgroundColor: 'white', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', width: '250px' }}>
@@ -35,6 +35,7 @@ const Home = () => {
       </div>
     </div>
   );
-};
+}; 
+
 
 export default Home;
